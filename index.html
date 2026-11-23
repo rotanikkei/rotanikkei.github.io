@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rota Nikkei — Checklist gratuito</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #faf7f2; color: #222; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 1.8rem; line-height: 1.3; }
+  p { line-height: 1.7; }
+  form { margin-top: 24px; }
+  label { display: block; font-weight: 600; margin: 18px 0 6px; }
+  input[type="email"], input[type="text"], input[type="tel"] {
+    width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #ccc;
+    border-radius: 8px; font-size: 1rem; background: #fff;
+  }
+  fieldset { border: none; margin: 18px 0 0; padding: 0; }
+  legend { font-weight: 600; margin-bottom: 6px; }
+  fieldset label { display: block; font-weight: 400; margin: 8px 0; }
+  fieldset input { margin-right: 8px; }
+  button {
+    margin-top: 24px; padding: 14px 22px; border: none; border-radius: 8px;
+    background: #b3352c; color: #fff; font-size: 1rem; font-weight: 600; cursor: pointer;
+  }
+  small { color: #666; }
+  .hp { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Rota Nikkei</h1>
+  <p>Informações práticas para descendentes de japoneses (nikkeis) no Brasil que
+     consideram trabalhar no Japão — vistos, documentos e primeiros passos.</p>
+  <p><strong>Checklist gratuito:</strong> preencha abaixo para receber o PDF com os
+     documentos e etapas essenciais, organizados por geração.</p>
+
+  <form action="https://formsubmit.co/minato.works.ai@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Novo cadastro no checklist — Rota Nikkei">
+    <input type="hidden" name="_next" value="https://rotanikkei.github.io/obrigado.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+
+    <label for="email">E-mail *</label>
+    <input id="email" type="email" name="email" required placeholder="voce@exemplo.com">
+
+    <fieldset>
+      <legend>Você é: *</legend>
+      <label><input type="radio" name="geracao" value="Nissei (2ª geração)" required> Nissei (2ª geração)</label>
+      <label><input type="radio" name="geracao" value="Sansei (3ª geração)"> Sansei (3ª geração)</label>
+      <label><input type="radio" name="geracao" value="Yonsei (4ª geração)"> Yonsei (4ª geração)</label>
+      <label><input type="radio" name="geracao" value="Não sei / outro"> Não sei / outro</label>
+    </fieldset>
+
+    <label for="nome">Nome (opcional)</label>
+    <input id="nome" type="text" name="nome" autocomplete="name">
+
+    <label for="whatsapp">WhatsApp (opcional)</label>
+    <input id="whatsapp" type="tel" name="whatsapp" autocomplete="tel" placeholder="(00) 00000-0000">
+
+    <button type="submit">Receber o checklist</button>
+  </form>
+
+  <p><small>Conteúdo informativo, sem aconselhamento jurídico ou migratório.
+     Confirme sempre as exigências atuais nos canais oficiais.</small></p>
+</main>
+</body>
+</html>
